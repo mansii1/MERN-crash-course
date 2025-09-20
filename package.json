@@ -8,9 +8,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon Backend/server.js",
     "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend",
-    "start": "node backend/server.js"
+    "start": "node Backend/server.js"
   },
   "dependencies": {
     "cross-env": "^10.0.0",
